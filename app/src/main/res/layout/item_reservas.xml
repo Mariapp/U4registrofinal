@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="366dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center"
+                android:orientation="vertical"
+                android:paddingBottom="50dp">
+
+                <TextView
+                    android:id="@+id/tvnombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tvdia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DIA"
+                    android:textSize="20dp"
+                    tools:text="@android:string/dialog_alert_title" />
+                />
+
+                <TextView
+                    android:id="@+id/tvobs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="observaciones"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tvhora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="hora"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvpersonas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Personas"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/grocery" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
